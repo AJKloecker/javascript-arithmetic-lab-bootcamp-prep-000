@@ -12,7 +12,7 @@ function multiply(a,b){
 
 function divide(a,b){
   if(b == 0){
-    return "Error"
+    return NaN
   }else{
     return a / b
   }
